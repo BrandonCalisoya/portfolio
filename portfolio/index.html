@@ -7,7 +7,6 @@
     <title>Climaxdd</title>
   </head>
   <body>
-    <h1>portfolio climaxd</h1>
     <!-- NAV-->
     <nav>
       <section class="icon-name">
@@ -17,14 +16,16 @@
         <h2>climaxdd</h2>
       </section>
       <section>
-        <a href="/">about me</a>
-        <a href="/">projects</a>
-        <a href="/">contacts</a>
-        <a href="/"> do you want to see something different?</a>
+        <a href="#about" id="link-about">about me</a>
+        <a href="/" id="tree-projects">projects</a>
+        <a  id="contact">contacts</a>
+        <a href="#footer"> do you want to see something different?</a>
       </section>
     </nav>
     <!--MAIN-->
-    <main>
+    <hr />
+
+    <main id="about">
       <!-- about me-->
       <section class="section-about">
         <div class="photo">
@@ -49,31 +50,58 @@
           </div>
         </div>
       </section>
-      <!-- tree of projects-->
-      <section class="section-tree">
-        <h1>pendiente</h1>
-      </section>
       <!-- REP SECTION-->
+      <hr />
       <section>
-        <h1>soy REP</h1>
-        <div><h2>Rapido</h2></div>
-        <div><h2>Eficiente</h2></div>
-        <div><h2>productivo</h2></div>
+        <div class="div-about-two">
+          <p class="parrafo">
+            he estado perdido por muchos años, y tras el rechazo mucha gente que
+            hizo… pensndo que es de manera injustificado… vengo para
+            demostrarles que no soy quienes ellos pensaron, no con palabras ni
+            con promesas.. solo acciones.
+            <br />
+            si lees esto, quiero decirte que hay muchas cosas que quiero lograr
+            en mi vida. y lo unico que me detendra.
+            <br />
+            me considero eficiente y responsable, pero pruebame para que veas de
+            lo que soy capaz.
+          </p>
+        </div>
+        <div class="div-rep">
+          <h1>soy REP</h1>
+          <div class="div-rep-h2"><h2>R</h2></div>
+          <div class="div-rep-h2"><h2>E</h2></div>
+          <div class="div-rep-h2"><h2>P</h2></div>
+        </div>
         <!--debe variar segun el idioma-->
+      </section>
+      <!-- tree of projects-->
+      <section class="section-tree" id="tree-projects">
+        <h1>pendiente</h1>
       </section>
     </main>
 
     <!-- FOOTER-->
-    <footer>
-      <div><h2>copyright by climaxdd</h2></div>
-      <div><a href="index.html">contacto</a></div>
-      <div class="div-tecnologies">
+    <footer id="footer">
+      <div class="div-footer">
+        <h1>sigue avanzando</h1>
+      </div>
+      <div class="div-footer">
+        <h2>copyright by climaxdd</h2>
+
+      </div>
+      <div class="div-tecnologies div-footer">
         <h2>portfolio realizado con:</h2>
-        <img src="img/img-example.png" alt="h" />
-        <img src="img/img-example.png" alt="c" />
-        <img src="img/img-example.png" alt="J" />
-        <p>mucho mucho dibujo.....</p>
+        <div>
+          
+          <img src="img/img-example.png" alt="h" />
+          <img src="img/img-example.png" alt="c" />
+          <img src="img/img-example.png" alt="J" />
+          <p>mucho mucho dibujo.....</p>
+        </div>
       </div>
     </footer>
+
+    <script src="scripts.js" defer></script>
   </body>
 </html>
